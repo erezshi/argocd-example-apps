@@ -14,7 +14,7 @@ spec:
         app: squid
     spec:
       containers:
-      - image: docker pull mg1-harbor.gigya.net/it-infra/squid3:latest
+      - image: mg1-harbor.gigya.net/it-infra/squid3:latest
         name: squid
         ports:
         - containerPort: 8081
