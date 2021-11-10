@@ -18,3 +18,5 @@ spec:
         name: squid
         ports:
         - containerPort: 8081
+      imagePullSecrets:
+        - name: mg1-harbor.gigya.net
